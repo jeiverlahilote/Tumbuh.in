@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./Tumbuh.in_Poster.png" alt="TUMBUH.in Banner" style="max-width: 100%; border-radius: 12px;" />
+  <img src="./public/Tumbuh.in_Poster.png" alt="TUMBUH.in Banner" style="max-width: 100%; border-radius: 12px;" />
 </p>
 
 <h1 align="center">
