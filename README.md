@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="./Tumbuh.in_Poster.png" alt="TUMBUH.in Banner" style="max-width: 100%; border-radius: 12px;" />
+</p>
+
 <h1 align="center">
   TUMBUH.in – Community-Powered Crop Forecasting Platform
 </h1>
@@ -33,19 +38,19 @@ TUMBUH.in is a data-driven web application designed to assist farmers in making 
 
 ## Key Features
 
-- Farmer Input Module  
+- **Farmer Input Module**  
   Simple and intuitive form for reporting land conditions, current crops, pests, and local weather.
 
-- Community Statistics Dashboard  
+- **Community Statistics Dashboard**  
   Aggregated visualizations of planted commodities, pest outbreaks, yield trends, and active farming areas.
 
-- AI Crop Recommendation Engine  
+- **AI Crop Recommendation Engine**  
   Suggests the best crops to plant this season based on collective data, land type, and seasonal insights.
 
-- Agricultural Risk Alerts  
+- **Agricultural Risk Alerts**  
   Community-sourced warnings related to pest attacks, extreme weather, or potential threats in specific regions.
 
-- Contributor Leaderboard  
+- **Contributor Leaderboard**  
   Highlights top contributors, active districts, and gamified achievements to encourage participation.
 
 ---
@@ -68,25 +73,35 @@ TUMBUH.in is a data-driven web application designed to assist farmers in making 
 
 1. Clone the repository:
 
+```bash
 git clone https://github.com/jeiverlahilote/Tumbuh.in  
 cd tumbuhin
+```
 
 2. Install dependencies:
 
+```bash
 npm install
+```
 
 3. Create environment config:
 
+```bash
 touch .env.local
+```
 
-.env.local content:
+`.env.local` content:
 
+```env
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url  
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
 4. Run development server:
 
+```bash
 npm run dev
+```
 
 Open http://localhost:3000 in your browser to view the app.
 
