@@ -94,7 +94,7 @@ export function CommodityPrediction() {
         setProcessingStatus('');
       } catch (error) {
         console.error('❌ AI generation failed:', error);
-        setAiError('AI tidak tersedia, menggunakan analisis data lokal');
+        setAiError('Token AI habis, menggunakan analisis data lokal');
         setProcessingStatus('Menggunakan analisis fallback...');
         
         // Generate fallback predictions
